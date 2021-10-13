@@ -6,6 +6,10 @@ The official API is https://duckduckgo.com/api
 
 The code for this package is based on ideas from [python package](https://github.com/deepanprabhu/duckduckgo-images-api)
 
+## Install
+
+`composer require noffily/duckduckgo-images-api`
+
 ## Example usage
 
 ```php
