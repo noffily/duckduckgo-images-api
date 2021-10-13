@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require "vendor/autoload.php";
+
+use DuckDuckGoImages\Client;
+
+$client = new Client();
+print_r($client->getImages($argv[1] ?? ''));

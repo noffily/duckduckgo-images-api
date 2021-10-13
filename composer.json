@@ -1,0 +1,22 @@
+{
+    "name": "noffily/duckduckgo-images-api",
+    "description": "Duckduckgo unofficial images api for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Chepurnoy",
+            "email": "noffily@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DuckDuckGoImages\\": "src/"
+        }
+    }
+}
